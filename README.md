@@ -17,8 +17,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -51,50 +49,21 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-Add these dependencies to your build.gradle (Module: app) file.
-*  implementation fileTree(dir: 'libs', include: ['*.jar'])
-*  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-*  implementation 'androidx.appcompat:appcompat:1.0.2'
-*  implementation 'androidx.core:core-ktx:1.0.2'
-*  implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-*  implementation 'com.google.android.material:material:1.0.0'
-*  implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
-*  testImplementation 'junit:junit:4.12'
-*  androidTestImplementation 'androidx.test.ext:junit:1.1.0'
-*  androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
-*  implementation 'androidx.room:room-runtime:2.2.5'
-*  annotationProcessor 'androidx.room:room-compiler:2.2.5'
-*  implementation 'com.google.code.gson:gson:2.8.5'
-*  implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
-*  implementation 'android.arch.persistence.room:runtime:2.2.5'
-*  kapt 'android.arch.persistence.room:compiler:2.2.5'
-*  implementation 'com.squareup.picasso:picasso:2.5.2'
+Add these dependencies to your build.gradle (Module: app) file if not already present.
+*  Picasso Library
+      *  implementation 'com.squareup.picasso:picasso:2.5.2'
+*  Espresso Library
+      *  androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+*  Room Library
+      *  implementation 'androidx.room:room-runtime:2.2.5'
+      *  annotationProcessor 'androidx.room:room-compiler:2.2.5'
+      *  implementation 'android.arch.persistence.room:runtime:2.2.5'
+      *  kapt 'android.arch.persistence.room:compiler:2.2.5'
+*  GSON Library
+      *  implementation 'com.google.code.gson:gson:2.8.5'
+      *  implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Own Branch 
-3. Commit your Changes 
-4. Push to the Branch 
-5. Open a Pull Request
 
 
-
-<!-- CONTACT -->
-## Contact
-
-Alison Garrett-Engele
-
-Project Link: [https://github.com/alisonege/personalized-recipe-lookup](https://github.com/alisonege/personalized-recipe-lookup)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* [AIT Professor Peter Ekler]()
